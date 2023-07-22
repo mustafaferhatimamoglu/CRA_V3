@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_FlowControl" targetNamespace="http://tempuri.org/DS_FlowControl.xsd" xmlns:mstns="http://tempuri.org/DS_FlowControl.xsd" xmlns="http://tempuri.org/DS_FlowControl.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_FlowControl" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DS_FlowControl" msprop:Generator_DataSetName="DS_FlowControl">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FlowControl" msprop:Generator_RowEvHandlerName="FlowControlRowChangeEventHandler" msprop:Generator_RowDeletedName="FlowControlRowDeleted" msprop:Generator_RowDeletingName="FlowControlRowDeleting" msprop:Generator_RowEvArgName="FlowControlRowChangeEvent" msprop:Generator_TablePropName="FlowControl" msprop:Generator_RowChangedName="FlowControlRowChanged" msprop:Generator_RowChangingName="FlowControlRowChanging" msprop:Generator_TableClassName="FlowControlDataTable" msprop:Generator_RowClassName="FlowControlRow" msprop:Generator_TableVarName="tableFlowControl" msprop:Generator_UserTableName="FlowControl">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FLow" msprop:Generator_ColumnPropNameInRow="FLow" msprop:Generator_ColumnPropNameInTable="FLowColumn" msprop:Generator_ColumnVarNameInTable="columnFLow" msprop:Generator_UserColumnName="FLow" type="xs:double" minOccurs="0" />
+              <xs:element name="Frequency" msprop:Generator_ColumnPropNameInRow="Frequency" msprop:Generator_ColumnPropNameInTable="FrequencyColumn" msprop:Generator_ColumnVarNameInTable="columnFrequency" msprop:Generator_UserColumnName="Frequency" type="xs:double" minOccurs="0" />
+              <xs:element name="K_Factor" msprop:Generator_ColumnPropNameInRow="K_Factor" msprop:Generator_ColumnPropNameInTable="K_FactorColumn" msprop:Generator_ColumnVarNameInTable="columnK_Factor" msprop:Generator_UserColumnName="K_Factor" type="xs:double" minOccurs="0" />
+              <xs:element name="Temperature" msprop:Generator_ColumnPropNameInRow="Temperature" msprop:Generator_ColumnPropNameInTable="TemperatureColumn" msprop:Generator_ColumnVarNameInTable="columnTemperature" msprop:Generator_UserColumnName="Temperature" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
